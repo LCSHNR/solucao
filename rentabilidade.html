@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Negócio - Vai de Ônibus!</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #475569; /* slate-600 */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="w-full bg-white border-b border-slate-200">
+        <nav class="container mx-auto px-6 lg:px-8 grid grid-cols-3 items-center py-3">
+            
+            <a href="index.html" class="flex items-center gap-2 justify-self-start">
+                <img src="img/logo.png" alt="Logo Vai de Ônibus!" class="h-16 w-auto">
+            </a>
+
+            <div class="hidden lg:flex items-center justify-self-center gap-8 font-semibold text-slate-600">
+                <a href="index.html" class="hover:text-blue-600">Home</a> 
+                <a href="solucao.html" class="hover:text-blue-600">Solução</a>
+                <a href="rentabilidade.html" class="text-blue-600 font-bold">Rentabilidade</a> <a href="concorrentes.html" class="hover:text-blue-600">Concorrentes</a>
+                <a href="tag_p.html" class="hover:text-blue-600">Tag &lt;p&gt;</a> </div>
+
+            <div></div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="rentabilidade" class="py-20">
+            <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-slate-800">Modelo de Negócio</h2>
+                    <p class="text-lg mt-6 max-w-3xl mx-auto">Fontes de receita diversificadas, com foco no modelo B2G (Business-to-Government)</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="landmark" class="w-10 h-10 text-green-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Licenciamento da Plataforma (B2G)</h3>
+                        <p>Modelo de assinatura para prefeituras e órgãos de transporte, oferecendo o painel de gestão com custo acessível e implementação rápida.</p>
+                        <span class="inline-block mt-4 bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">Receita Principal</span>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="megaphone" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Publicidade Geo-localizada</h3>
+                        <p>Espaços no aplicativo para comércios locais anunciarem seus produtos e serviços para diferentes públicos.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="gem" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Funcionalidades Premium</h3>
+                        <p>Planos de assinatura opcionais para usuários (experiência sem anúncios, alertas personalizados, etc.).</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="database" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Dados Anonimizados</h3>
+                        <p>Fornecemos dados (sempre anônimos) sobre como as pessoas se movem, ajudando empresas e cidades a planejar melhorias.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-16">
+        <div class="container mx-auto px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                 <img src="img/logo.png" alt="Logo Vai de Ônibus!" class="h-16 w-auto mx-auto">
+            </div>
+            <p class="text-sm mt-1 text-slate-400">Compromisso com a melhoria da mobilidade no estado do Paraná.</p>
+            <p class="text-sm text-slate-500 mt-8">&copy; 2025 Vai de Ônibus! Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

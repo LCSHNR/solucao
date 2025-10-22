@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai de Ônibus! - Mobilidade Inteligente para o Paraná</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Estilos base corporativos */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #475569; /* slate-600 */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="w-full bg-white border-b border-slate-200">
+        <nav class="container mx-auto px-6 lg:px-8 grid grid-cols-3 items-center py-3">
+            
+            <a href="index.html" class="flex items-center gap-2 justify-self-start">
+                <img src="img/logo.png" alt="Logo Vai de Ônibus!" class="h-16 w-auto">
+            </a>
+
+            <div class="hidden lg:flex items-center justify-self-center gap-8 font-semibold text-slate-600">
+                <a href="index.html" class="text-blue-600 font-bold">Home</a> <a href="solucao.html" class="hover:text-blue-600">Solução</a>
+                <a href="rentabilidade.html" class="hover:text-blue-600">Rentabilidade</a>
+                <a href="concorrentes.html" class="hover:text-blue-600">Concorrentes</a>
+                <a href="tag_p.html" class="hover:text-blue-600">Tag &lt;p&gt;</a> </div>
+
+            <div></div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="bg-slate-50 text-slate-800">
+            <div class="container mx-auto px-6 lg:px-8 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
+                    Gestão de Mobilidade Urbana: <br class="hidden sm:block"> Previsibilidade e Gestão para Cidades.
+                </h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-600 mb-10">
+                    Plataforma de gestão de transporte público para cidades de pequeno e médio porte no Paraná, conectando passageiros, veículos e gestores.
+                </p>
+                
+                <img src="img/logo.png" alt="Logo Vai de Ônibus!" class="h-130 w-auto mx-auto mt-10">
+                
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 lg:px-8">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="user-round" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-2 text-slate-800">Para o Passageiro</h3>
+                        <p>Horários precisos, acompanhamento do ônibus no mapa e pagamento digital (Pix).</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="users-round" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-2 text-slate-800">Para a Comunidade</h3>
+                        <p>Informação de lotação em tempo real para planejar viagens, evitando ônibus superlotados.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-slate-200">
+                        <i data-lucide="landmark" class="w-10 h-10 text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-2 text-slate-800">Para o Gestor Público</h3>
+                        <p>Painel de dados em tempo real para otimização de frotas, resposta à demanda e decisões estratégicas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="problema" class="py-20">
+            <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-slate-800">Principal problema a ser combatido:</h2>
+                    <p class="text-lg mt-6 max-w-3xl mx-auto">A falta de informação confiável gera frustração para passageiros e ineficiência para a gestão.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="bg-white p-8 md:p-10 rounded-lg shadow-md border border-slate-200">
+                        <h3 class="text-2xl font-bold text-red-600 mb-4">O Cenário Atual</h3>
+                        <ul class="space-y-4 text-lg">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="clock-slashed" class="w-6 h-6 text-red-500 mt-1 flex-shrink-0"></i>
+                                <span><strong>Tempo perdido:</strong> Esperas longas e imprevisíveis nos pontos de ônibus.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="bus-front" class="w-6 h-6 text-red-500 mt-1 flex-shrink-0"></i>
+                                <span><strong>Superlotação:</strong> Viagens desconfortáveis, especialmente nos horários de pico.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="area-chart" class="w-6 h-6 text-red-500 mt-1 flex-shrink-0"></i>
+                                <span><strong>Gestão reativa:</strong> Decisões sobre frotas e rotas baseadas em dados desatualizados.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 flex items-center gap-4">
+                            <i data-lucide="users" class="w-10 h-10 text-slate-500 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-xl">Estudantes e Trabalhadores</h4>
+                                <p class="text-slate-600">Enfrentam atrasos e uma experiência de transporte precária.</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 flex items-center gap-4">
+                            <i data-lucide="steering-wheel" class="w-10 h-10 text-slate-500 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-xl">Motoristas</h4>
+                                <p class="text-slate-600">Operam sem dados de apoio, lidando com a pressão de horários e a insatisfação dos usuários.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe" class="py-20 bg-white">
+            <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-slate-800">A Equipe</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+                    <div class="text-center">
+                        <img class="w-40 h-40 rounded-full mx-auto mb-4 object-cover" src="img/foto.png" alt="Foto de Fernanda">
+                        <h3 class="text-2xl font-bold text-slate-800">Fernanda</h3>
+                        <p class="text-blue-600 font-semibold mb-2">Especialista em UX/UI Design</p>
+                        <p class="text-slate-600">Focada em criar uma plataforma intuitiva e acessível para todos os usuários. (função hipotética)</p>
+                    </div>
+                    <div class="text-center">
+                        <img class="w-40 h-40 rounded-full mx-auto mb-4 object-cover" src="img/foto.png" alt="Foto de Lucas Henrique">
+                        <h3 class="text-2xl font-bold text-slate-800">Lucas Henrique</h3>
+                        <p class="text-blue-600 font-semibold mb-2">Desenvolvedor</p>
+                        <p class="text-slate-600">Responsável por transformar ideias em uma plataforma robusta, segura e escalável. (função hipotética apenas)</p>
+                    </div>
+                    <div class="text-center">
+                        <img class="w-40 h-40 rounded-full mx-auto mb-4 object-cover" src="img/foto.png" alt="Foto de Luiz Thiago">
+                        <h3 class="text-2xl font-bold text-slate-800">Luiz Thiago</h3>
+                        <p class="text-blue-600 font-semibold mb-2">Estrategista de Negócios</p>
+                        <p class="text-slate-600">Conectando a tecnologia às necessidades das cidades para gerar impacto real. (função hipotética também)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-16">
+        <div class="container mx-auto px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                 <img src="img/logo.png" alt="Logo Vai de Ônibus!" class="h-16 w-auto mx-auto">
+            </div>
+            <p class="text-sm mt-1 text-slate-400">Compromisso com a melhoria da mobilidade no estado do Paraná.</p>
+            <p class="text-sm text-slate-500 mt-8">&copy; 2025 Vai de Ônibus! Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
